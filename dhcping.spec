@@ -1,12 +1,11 @@
 Summary:	DHCP daemon ping program
+Summary(pl):	Program ping dla demona DHCP
 Name:		dhcping
 Version:	1.2
 Release:	1
 License:	BSD-like (?)
 Group:		Networking/Utilities
 Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
-BuildRequires:	autoconf
-BuildRequires:	automake
 URL:		http://www.mavetju.org/unix/general.php
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -15,7 +14,7 @@ This small tool let you perform a dhcp-request to find out if a
 dhcp-server is still running.
 
 %description -l pl
-To ma³e narzêdzie wywo³uje dhcp-request, aby sprawdziæ czy server dhcp
+To ma³e narzêdzie wysy³a dhcp-request, aby sprawdziæ czy server DHCP
 ci±gle dzia³a.
 
 %prep
