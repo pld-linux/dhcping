@@ -2,12 +2,13 @@ Summary:	DHCP daemon ping program
 Summary(pl):	Program ping dla demona DHCP
 Name:		dhcping
 Version:	1.2
-Release:	1
+Release:	2
 License:	BSD-like (?)
 Group:		Networking/Utilities
 Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
 # Source0-md5:	c4b22bbf3446c8567e371c40aa552d5d
 URL:		http://www.mavetju.org/unix/general.php
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -22,6 +23,7 @@ ci±gle dzia³a.
 %setup -q
 
 %build
+cp -f /usr/share/automake/config.sub .
 %configure
 %{__make}
 
