@@ -6,6 +6,7 @@ Release:	1
 License:	BSD-like (?)
 Group:		Networking/Utilities
 Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
+# Source0-md5:	c4b22bbf3446c8567e371c40aa552d5d
 URL:		http://www.mavetju.org/unix/general.php
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
