@@ -1,5 +1,5 @@
 Summary:	DHCP daemon ping program
-Summary(pl.UTF-8):   Program ping dla demona DHCP
+Summary(pl.UTF-8):	Program ping dla demona DHCP
 Name:		dhcping
 Version:	1.2
 Release:	2
