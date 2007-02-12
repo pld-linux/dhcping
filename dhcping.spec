@@ -1,5 +1,5 @@
 Summary:	DHCP daemon ping program
-Summary(pl):	Program ping dla demona DHCP
+Summary(pl.UTF-8):   Program ping dla demona DHCP
 Name:		dhcping
 Version:	1.2
 Release:	2
@@ -15,9 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This small tool let you perform a dhcp-request to find out if a
 dhcp-server is still running.
 
-%description -l pl
-To ma³e narzêdzie wysy³a dhcp-request, aby sprawdziæ czy server DHCP
-ci±gle dzia³a.
+%description -l pl.UTF-8
+To maÅ‚e narzÄ™dzie wysyÅ‚a dhcp-request, aby sprawdziÄ‡ czy server DHCP
+ciÄ…gle dziaÅ‚a.
 
 %prep
 %setup -q
