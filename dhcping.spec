@@ -2,7 +2,7 @@ Summary:	DHCP daemon ping program
 Summary(pl.UTF-8):	Program ping dla demona DHCP
 Name:		dhcping
 Version:	1.2
-Release:	2
+Release:	3
 License:	BSD-like (?)
 Group:		Networking/Utilities
 Source0:	http://www.mavetju.org/download/%{name}-%{version}.tar.gz
